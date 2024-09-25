@@ -1,25 +1,22 @@
-
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>REMISIÓN</title>
-		<link rel="stylesheet" href="https://fredyortegon30.github.io/invoice/style.css">
+		<title>COTIZACIÓN</title>
+		<link rel="stylesheet" href="https://hugocastalleda.github.io/invoice/style.css">
 		<link rel="license" href="https://www.opensource.org/licenses/mit-license/">
 	</head>
 	<body>
 		<header>
-			<h1>REMISIÓN</h1>
-			<address>
+			<h1>COTIZACIÓN</h1>
+			<!--<address>
 				<p>MI EMPRESA</p>
 				<p>NIT 1111111111<br>Calle 11- 10-33</p>
 				<p>Pereira</p>
-			</address>
-
-<div style="float: right;">
-    <img alt="" src="https://acortar.link/caSNRS" style="width: 100px; height: 100px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="">
-</div>
-
-
+			</address>-->
+ <br>
+  <div align="center">
+    <img src="https://i0.wp.com/clonesyperifericos.com/wp-content/uploads/logo-web-modificado.png" alt="" width="282" height="78">
+  </div>
 		</header>
 		<article>
 			<h1>Recipient</h1>
@@ -30,7 +27,7 @@
 			</address>
 			<table class="meta">
 				<tr>
-					<th><span>Remisión #</span></th>
+					<th><span>Cotización #</span></th>
 					<td><span>&lt;&lt;[N_factura]&gt;&gt;</span></td>
 				</tr>
 				<tr>
@@ -39,7 +36,7 @@
 				</tr>
 				<tr>
 					<th><span>Total</span></th>
-					<td><span>&lt;&lt;[TOTAL VENTA]&gt;&gt;</span></td>
+					<td><span>&lt;&lt;text([TOTAL VENTA])&gt;&gt;</span></td>
 				</tr>
 			</table>
 			<table class="inventory">
@@ -56,10 +53,10 @@
 				<p><span>&lt;&lt;Start: SELECT(DETALLE_VENTAS[id_detalle],[id_encabezado_venta]=[id_encabezado]) &gt;&gt;</span></p>
 					<tr>
 						<td><a class="cut">-</a>&lt;&lt;[id_producto].[Nombre de producto]&gt;&gt;</td>
-						<td><span></span></td>
-				        <td><span>&lt;&lt;[Valor_unitario]&gt;&gt;</span></td>
+						<td><span><a href="&lt;&lt;text([id_producto].[Descripcion])&gt;&gt;"><img src="&lt;&lt;text([id_producto].[Foto])&gt;&gt;" alt="URL del producto" style="width:60px;height:50px;"></a></span></td>
+				        <td><span>&lt;&lt;text([Valor_unitario])&gt;&gt;</span></td>
 						<td><span>&lt;&lt;[Cantidad]&gt;&gt;</span></td>
-						<td><span>&lt;&lt;[Subtotal]&gt;&gt;</span></td>
+						<td><span>&lt;&lt;text([Subtotal])&gt;&gt;</span></td>
 					</tr>
 				<p><span>&lt;&lt; end &gt;&gt;</span></p>
 				</tbody>
@@ -68,7 +65,7 @@
 			<table class="balance">
 				<tr>
 					<th><span>Total</span></th>
-					<td><span>&lt;&lt;[TOTAL VENTA]&gt;&gt;</span></td>
+					<td><span>&lt;&lt;text([TOTAL VENTA])&gt;&gt;</span></td>
 				</tr>
 				<tr>
 					<th><span>Otros conceptos</span></th>
@@ -76,14 +73,14 @@
 				</tr>
 				<tr>
 					<th><span>Total a pagar</span></th>
-					<td><span>&lt;&lt;[TOTAL VENTA]&gt;&gt;</span></td>
+					<td><span>&lt;&lt;text([TOTAL VENTA])&gt;&gt;</span></td>
 				</tr>
 			</table>
 		</article>
 		<aside>
 			<h1><span>Notas adicionales</span></h1>
 			<div>
-				<p>Pagos a la cuenta de ahorros bancolombia # </p>
+				<p>Garantía de 1 año, somos distribuidores autorizados, pago de contado en su totalidad, efectivo o transferencia a una de nuestras cuentas, disponibilidad inmediata, tiempo de la oferta 4 días, sujeto a disponibilidad de producto.</p>
 			</div>
 		</aside>
 	</body>
