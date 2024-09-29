@@ -149,6 +149,7 @@ article h1 {
     font-size: 125%;
     font-weight: bold;*/
     float: left;
+    position: absolute;
     font-size: 125%;
     font-weight: bold;
 }
