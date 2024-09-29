@@ -143,9 +143,12 @@ article:after {
 }
 
 article h1 {
-    /*clip: rect(0 0 0 0);*/
+    /*clip: rect(0 0 0 0);
     position: absolute;
     float: left;'
+    font-size: 125%;
+    font-weight: bold;*/
+    float: left;
     font-size: 125%;
     font-weight: bold;
 }
