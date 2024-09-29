@@ -271,9 +271,6 @@ tr:hover .cut {
 }
 
 .small-asesor {
-   color: #A91A26;
+    color: #A91A26;
     font-size: 60%;
-    margin-left: auto; 
-    display: block; 
-    width: fit-content;
 }
