@@ -269,3 +269,10 @@ tr:hover .cut {
 .small-text {
     font-size: 60%;
 }
+
+.small-text-asesor {
+    font-size: 60%;
+    margin-left: auto; 
+    display: block; 
+    width: fit-content;
+}
