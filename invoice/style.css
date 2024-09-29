@@ -270,7 +270,8 @@ tr:hover .cut {
     font-size: 60%;
 }
 
-.small-text-asesor {
+.small-asesor {
+   color: #A91A26;
     font-size: 60%;
     margin-left: auto; 
     display: block; 
