@@ -79,7 +79,8 @@ body {
 
 /* header */
 header {
-    margin: 0 0 3em;
+    /* margin: 0 0 3em;*/
+    margin: 0 0 1em;
     overflow: hidden; /* Añadido para manejar el colapso del margen superior */
 }
 
@@ -130,7 +131,7 @@ article,
 article address,
 table.meta,
 table.inventory {
-    margin: 0 0 1em;
+    margin: 0 0 3em;
     clear: both;
 }
 
@@ -144,8 +145,6 @@ article h1 {
     clip: rect(0 0 0 0);
     position: absolute;
     float: left;
-    font-size: 125%;
-    font-weight: bold;
 }
 
 article address {
