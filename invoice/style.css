@@ -142,16 +142,6 @@ article:after {
     clear: both;
 }
 
-article h1 {
-    /*clip: rect(0 0 0 0);
-    position: absolute;
-    float: left;'
-    font-size: 125%;
-    font-weight: bold;*/
-    font-size: 125%;
-    font-weight: bold;
-}
-
 article address {
     float: left;
     font-size: 125%;
